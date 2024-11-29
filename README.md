@@ -30,6 +30,10 @@ No | Outline | Description
 </p>
 <br>
 
+### **Problema del negocio**
+
+Frente al primer emprendimiento de Dany, un restaurante de comida japonesa que lleva unos meses de funcionamiento con una flujo de caja estancada. En ese sentido el dueño se ha interesado por ampliar su cartera de clientes más leales.
+
 ### **Análisis de datos**
 
 1. ¿Cuál es el importe total que gastó cada cliente en el restaurante?
@@ -76,7 +80,7 @@ No | Outline | Description
 ### **Conclusiones**
 
 ![architecture]([images/architecture.png](https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/assets/week_1.JPG))
-Image 1. Desafío 1
+Image 1. Desafío
 
 
 <br>
