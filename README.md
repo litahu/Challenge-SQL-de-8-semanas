@@ -10,7 +10,7 @@
 
 No | Outline | Description
 ---|---|---
-1 | [Dannys´Diner](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-1:-Dannys´Diner) | hnloop,ñkkkkkkkk
+1 | [Dannys´Diner](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-1:-Dannys´Diner) | Analice más de cerca el comportamiento de los clientes, y utilice técnicas PostgreSQL para identificar sus patrones de consumo
 2 | [Pizza Runner](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-2:-Pizza-Runner) | hnloop,ñkkkkkkkk
 3 | [Foodie-FI](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-3:-Foodie-FI) | hnloop,ñkkkkkkkk
 4 | [Data Bank](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-4:-Data-Bank) | hnloop,ñkkkkkkkk
@@ -32,7 +32,7 @@ No | Outline | Description
 
 ### **Problema del negocio**
 
-Frente al primer emprendimiento de Dany, un restaurante de comida japonesa que lleva unos meses de funcionamiento con una flujo de caja estancada. En ese sentido el dueño se ha interesado por ampliar su cartera de clientes más leales.
+Frente al primer emprendimiento de Dany: un restaurante de comida que lleva pocos meses de funcionamiento en una zona muy comercial. No obstante, últimamente, ha estado preocupado pues su negocio tiene un flujo de caja estancada. En ese sentido Dany para mantener a flote el negocio se ha interesado por ampliar su cartera de clientes más leales.
 
 ### **Análisis de datos**
 
@@ -79,8 +79,7 @@ Frente al primer emprendimiento de Dany, un restaurante de comida japonesa que l
 
 ### **Conclusiones**
 
-![architecture]([images/architecture.png](https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/assets/week_1.JPG))
-Image 1. Desafío
+
 
 
 <br>
