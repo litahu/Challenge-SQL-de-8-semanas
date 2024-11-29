@@ -88,11 +88,124 @@ Frente al primer emprendimiento de Dany: un restaurante de comida que lleva poco
 
 ## 📌 **Caso práctico Nº 2: Pizza Runner**
 
+<p align="center">
+  <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/assets/week_2.JPG"></kbd> <br>
+</p>
+<br>
+
+### **Problema del negocio**
+
+Frente al primer emprendimiento de Dany: un restaurante de comida que lleva pocos meses de funcionamiento en una zona muy comercial. No obstante, últimamente, ha estado preocupado pues su negocio tiene un flujo de caja estancada. En ese sentido Dany para mantener a flote el negocio se ha interesado por ampliar su cartera de clientes más leales.
+
+### **Análisis de datos**
+
+1. ¿Cuál es el importe total que gastó cada cliente en el restaurante?
+    ```
+    cd terraform
+    ```
+2. ¿Cuántos días ha visitado cada cliente el restaurante?
+    ```
+    terraform init
+    ```
+3. ¿Cuál fue el primer artículo del menú que compró cada cliente?
+    ```
+    terraform apply
+    ```
+4. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
+    ```
+    terraform apply
+    ```
+5. ¿Qué artículo fue el más popular para cada cliente?
+    ```
+    terraform apply
+    ```
+6. ¿Qué artículo compró primero el cliente después de convertirse en miembro?
+    ```
+    terraform apply
+    ```
+7. ¿Qué artículo se compró justo antes de que el cliente se convirtiera en miembro?
+     ```
+    terraform apply
+    ```
+8. ¿Cuál es el total de artículos y la cantidad gastada por cada miembro antes de convertirse en miembro?
+     ```
+    terraform apply
+    ```
+9. Si cada $1 gastado equivale a 10 puntos y el sushi tiene un multiplicador de puntos de 2x, ¿cuántos puntos tendría cada cliente?
+     ```
+    terraform apply
+    ```
+10. En la primera semana después de que un cliente se une al programa (incluida su fecha de unión), gana el doble de puntos en todos los artículos, no solo en sushi: ¿cuántos puntos tienen los clientes A y B al final de enero?
+     ```
+    terraform apply
+    ```
+
+### **Conclusiones**
+
+
+
+
 <br>
 
 ---
 
 ## 📌 **Caso práctico Nº 3: Foodie-FI**
+
+
+<p align="center">
+  <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/assets/week_3.JPG"></kbd> <br>
+</p>
+<br>
+
+### **Problema del negocio**
+
+Frente al primer emprendimiento de Dany: un restaurante de comida que lleva pocos meses de funcionamiento en una zona muy comercial. No obstante, últimamente, ha estado preocupado pues su negocio tiene un flujo de caja estancada. En ese sentido Dany para mantener a flote el negocio se ha interesado por ampliar su cartera de clientes más leales.
+
+### **Análisis de datos**
+
+1. ¿Cuál es el importe total que gastó cada cliente en el restaurante?
+    ```
+    cd terraform
+    ```
+2. ¿Cuántos días ha visitado cada cliente el restaurante?
+    ```
+    terraform init
+    ```
+3. ¿Cuál fue el primer artículo del menú que compró cada cliente?
+    ```
+    terraform apply
+    ```
+4. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
+    ```
+    terraform apply
+    ```
+5. ¿Qué artículo fue el más popular para cada cliente?
+    ```
+    terraform apply
+    ```
+6. ¿Qué artículo compró primero el cliente después de convertirse en miembro?
+    ```
+    terraform apply
+    ```
+7. ¿Qué artículo se compró justo antes de que el cliente se convirtiera en miembro?
+     ```
+    terraform apply
+    ```
+8. ¿Cuál es el total de artículos y la cantidad gastada por cada miembro antes de convertirse en miembro?
+     ```
+    terraform apply
+    ```
+9. Si cada $1 gastado equivale a 10 puntos y el sushi tiene un multiplicador de puntos de 2x, ¿cuántos puntos tendría cada cliente?
+     ```
+    terraform apply
+    ```
+10. En la primera semana después de que un cliente se une al programa (incluida su fecha de unión), gana el doble de puntos en todos los artículos, no solo en sushi: ¿cuántos puntos tienen los clientes A y B al final de enero?
+     ```
+    terraform apply
+    ```
+
+### **Conclusiones**
+
 
 <br>
 
@@ -100,11 +213,125 @@ Frente al primer emprendimiento de Dany: un restaurante de comida que lleva poco
 
 ## 📌 **Caso práctico Nº 4: Data Bank**
 
+
+<p align="center">
+  <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/assets/week_4.JPG"></kbd> <br>
+</p>
+<br>
+
+### **Problema del negocio**
+
+Frente al primer emprendimiento de Dany: un restaurante de comida que lleva pocos meses de funcionamiento en una zona muy comercial. No obstante, últimamente, ha estado preocupado pues su negocio tiene un flujo de caja estancada. En ese sentido Dany para mantener a flote el negocio se ha interesado por ampliar su cartera de clientes más leales.
+
+### **Análisis de datos**
+
+1. ¿Cuál es el importe total que gastó cada cliente en el restaurante?
+    ```
+    cd terraform
+    ```
+2. ¿Cuántos días ha visitado cada cliente el restaurante?
+    ```
+    terraform init
+    ```
+3. ¿Cuál fue el primer artículo del menú que compró cada cliente?
+    ```
+    terraform apply
+    ```
+4. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
+    ```
+    terraform apply
+    ```
+5. ¿Qué artículo fue el más popular para cada cliente?
+    ```
+    terraform apply
+    ```
+6. ¿Qué artículo compró primero el cliente después de convertirse en miembro?
+    ```
+    terraform apply
+    ```
+7. ¿Qué artículo se compró justo antes de que el cliente se convirtiera en miembro?
+     ```
+    terraform apply
+    ```
+8. ¿Cuál es el total de artículos y la cantidad gastada por cada miembro antes de convertirse en miembro?
+     ```
+    terraform apply
+    ```
+9. Si cada $1 gastado equivale a 10 puntos y el sushi tiene un multiplicador de puntos de 2x, ¿cuántos puntos tendría cada cliente?
+     ```
+    terraform apply
+    ```
+10. En la primera semana después de que un cliente se une al programa (incluida su fecha de unión), gana el doble de puntos en todos los artículos, no solo en sushi: ¿cuántos puntos tienen los clientes A y B al final de enero?
+     ```
+    terraform apply
+    ```
+
+### **Conclusiones**
+
+
+
 <br>
 
 ---
 
 ## 📌 **Caso práctico Nº 5: Data Mart**
+
+
+<p align="center">
+  <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/assets/week_5.JPG"></kbd> <br>
+</p>
+<br>
+
+### **Problema del negocio**
+
+Frente al primer emprendimiento de Dany: un restaurante de comida que lleva pocos meses de funcionamiento en una zona muy comercial. No obstante, últimamente, ha estado preocupado pues su negocio tiene un flujo de caja estancada. En ese sentido Dany para mantener a flote el negocio se ha interesado por ampliar su cartera de clientes más leales.
+
+### **Análisis de datos**
+
+1. ¿Cuál es el importe total que gastó cada cliente en el restaurante?
+    ```
+    cd terraform
+    ```
+2. ¿Cuántos días ha visitado cada cliente el restaurante?
+    ```
+    terraform init
+    ```
+3. ¿Cuál fue el primer artículo del menú que compró cada cliente?
+    ```
+    terraform apply
+    ```
+4. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
+    ```
+    terraform apply
+    ```
+5. ¿Qué artículo fue el más popular para cada cliente?
+    ```
+    terraform apply
+    ```
+6. ¿Qué artículo compró primero el cliente después de convertirse en miembro?
+    ```
+    terraform apply
+    ```
+7. ¿Qué artículo se compró justo antes de que el cliente se convirtiera en miembro?
+     ```
+    terraform apply
+    ```
+8. ¿Cuál es el total de artículos y la cantidad gastada por cada miembro antes de convertirse en miembro?
+     ```
+    terraform apply
+    ```
+9. Si cada $1 gastado equivale a 10 puntos y el sushi tiene un multiplicador de puntos de 2x, ¿cuántos puntos tendría cada cliente?
+     ```
+    terraform apply
+    ```
+10. En la primera semana después de que un cliente se une al programa (incluida su fecha de unión), gana el doble de puntos en todos los artículos, no solo en sushi: ¿cuántos puntos tienen los clientes A y B al final de enero?
+     ```
+    terraform apply
+    ```
+
+### **Conclusiones**
+
+
 
 <br>
 
@@ -112,20 +339,124 @@ Frente al primer emprendimiento de Dany: un restaurante de comida que lleva poco
 
 ## 📌 **Caso práctico Nº 6: CliqueBait**
 
+
+<p align="center">
+  <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/assets/week_6.JPG"></kbd> <br>
+</p>
+<br>
+
+### **Problema del negocio**
+
+Frente al primer emprendimiento de Dany: un restaurante de comida que lleva pocos meses de funcionamiento en una zona muy comercial. No obstante, últimamente, ha estado preocupado pues su negocio tiene un flujo de caja estancada. En ese sentido Dany para mantener a flote el negocio se ha interesado por ampliar su cartera de clientes más leales.
+
+### **Análisis de datos**
+
+1. ¿Cuál es el importe total que gastó cada cliente en el restaurante?
+    ```
+    cd terraform
+    ```
+2. ¿Cuántos días ha visitado cada cliente el restaurante?
+    ```
+    terraform init
+    ```
+3. ¿Cuál fue el primer artículo del menú que compró cada cliente?
+    ```
+    terraform apply
+    ```
+4. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
+    ```
+    terraform apply
+    ```
+5. ¿Qué artículo fue el más popular para cada cliente?
+    ```
+    terraform apply
+    ```
+6. ¿Qué artículo compró primero el cliente después de convertirse en miembro?
+    ```
+    terraform apply
+    ```
+7. ¿Qué artículo se compró justo antes de que el cliente se convirtiera en miembro?
+     ```
+    terraform apply
+    ```
+8. ¿Cuál es el total de artículos y la cantidad gastada por cada miembro antes de convertirse en miembro?
+     ```
+    terraform apply
+    ```
+9. Si cada $1 gastado equivale a 10 puntos y el sushi tiene un multiplicador de puntos de 2x, ¿cuántos puntos tendría cada cliente?
+     ```
+    terraform apply
+    ```
+10. En la primera semana después de que un cliente se une al programa (incluida su fecha de unión), gana el doble de puntos en todos los artículos, no solo en sushi: ¿cuántos puntos tienen los clientes A y B al final de enero?
+     ```
+    terraform apply
+    ```
+
+### **Conclusiones**
+
+
+
 <br>
 
 ---
 
 ## 📌 **Caso práctico Nº 7: Balanced Tree Clothing Co**
 
-We will be working with six related tables, which contain eCommerce data about:
-- Website Activity
-- Products
-- Orders and Refunds
 
-We'll use MySQL to understand how customers access and interact with the site, analyze landing page performance and conversion, and explore product-level sales.
+<p align="center">
+  <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/assets/week_7.JPG"></kbd> <br>
+</p>
 <br>
-<br>
+
+### **Problema del negocio**
+
+Frente al primer emprendimiento de Dany: un restaurante de comida que lleva pocos meses de funcionamiento en una zona muy comercial. No obstante, últimamente, ha estado preocupado pues su negocio tiene un flujo de caja estancada. En ese sentido Dany para mantener a flote el negocio se ha interesado por ampliar su cartera de clientes más leales.
+
+### **Análisis de datos**
+
+1. ¿Cuál es el importe total que gastó cada cliente en el restaurante?
+    ```
+    cd terraform
+    ```
+2. ¿Cuántos días ha visitado cada cliente el restaurante?
+    ```
+    terraform init
+    ```
+3. ¿Cuál fue el primer artículo del menú que compró cada cliente?
+    ```
+    terraform apply
+    ```
+4. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
+    ```
+    terraform apply
+    ```
+5. ¿Qué artículo fue el más popular para cada cliente?
+    ```
+    terraform apply
+    ```
+6. ¿Qué artículo compró primero el cliente después de convertirse en miembro?
+    ```
+    terraform apply
+    ```
+7. ¿Qué artículo se compró justo antes de que el cliente se convirtiera en miembro?
+     ```
+    terraform apply
+    ```
+8. ¿Cuál es el total de artículos y la cantidad gastada por cada miembro antes de convertirse en miembro?
+     ```
+    terraform apply
+    ```
+9. Si cada $1 gastado equivale a 10 puntos y el sushi tiene un multiplicador de puntos de 2x, ¿cuántos puntos tendría cada cliente?
+     ```
+    terraform apply
+    ```
+10. En la primera semana después de que un cliente se une al programa (incluida su fecha de unión), gana el doble de puntos en todos los artículos, no solo en sushi: ¿cuántos puntos tienen los clientes A y B al final de enero?
+     ```
+    terraform apply
+    ```
+
+### **Conclusiones**
+
 
 
 <br>
@@ -135,20 +466,59 @@ We'll use MySQL to understand how customers access and interact with the site, a
 ## 📌 **Caso práctico Nº 8: Segmentos nuevos**
 
 
-
-We will be working with six related tables, which contain eCommerce data about:
-- Website Activity
-- Products
-- Orders and Refunds
-
-We'll use MySQL to understand how customers access and interact with the site, analyze landing page performance and conversion, and explore product-level sales.
-<br>
-<br>
-
-#### **Entity Relationship Database**
-
 <p align="center">
-  <kbd><img width="800" alt="erd" src="https://user-images.githubusercontent.com/115857221/216096971-49eb3432-6cdf-49c4-afcc-78e386d6cb50.png"> </kbd> <br>
+  <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/assets/week_8.JPG"></kbd> <br>
 </p>
+<br>
+
+### **Problema del negocio**
+
+Frente al primer emprendimiento de Dany: un restaurante de comida que lleva pocos meses de funcionamiento en una zona muy comercial. No obstante, últimamente, ha estado preocupado pues su negocio tiene un flujo de caja estancada. En ese sentido Dany para mantener a flote el negocio se ha interesado por ampliar su cartera de clientes más leales.
+
+### **Análisis de datos**
+
+1. ¿Cuál es el importe total que gastó cada cliente en el restaurante?
+    ```
+    cd terraform
+    ```
+2. ¿Cuántos días ha visitado cada cliente el restaurante?
+    ```
+    terraform init
+    ```
+3. ¿Cuál fue el primer artículo del menú que compró cada cliente?
+    ```
+    terraform apply
+    ```
+4. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
+    ```
+    terraform apply
+    ```
+5. ¿Qué artículo fue el más popular para cada cliente?
+    ```
+    terraform apply
+    ```
+6. ¿Qué artículo compró primero el cliente después de convertirse en miembro?
+    ```
+    terraform apply
+    ```
+7. ¿Qué artículo se compró justo antes de que el cliente se convirtiera en miembro?
+     ```
+    terraform apply
+    ```
+8. ¿Cuál es el total de artículos y la cantidad gastada por cada miembro antes de convertirse en miembro?
+     ```
+    terraform apply
+    ```
+9. Si cada $1 gastado equivale a 10 puntos y el sushi tiene un multiplicador de puntos de 2x, ¿cuántos puntos tendría cada cliente?
+     ```
+    terraform apply
+    ```
+10. En la primera semana después de que un cliente se une al programa (incluida su fecha de unión), gana el doble de puntos en todos los artículos, no solo en sushi: ¿cuántos puntos tienen los clientes A y B al final de enero?
+     ```
+    terraform apply
+    ```
+
+### **Conclusiones**
+
 
 <br>
