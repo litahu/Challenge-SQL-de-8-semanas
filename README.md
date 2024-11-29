@@ -11,8 +11,8 @@ No | Outline | Description
 4 | [Data Bank](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-4:-Data-Bank) | hnloop,ñkkkkkkkk
 5 | [Data Mart](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-5:-Data-Mart) | hnloop,ñkkkkkkkk
 6 | [CliqueBait](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-6:-CliqueBait) |  hnloop,ñkkkkkkkk
-7 | [Balanced Tree](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-7:-Balanced-Tree-Clothing-Co) | hnloop,ñkkkkkkkk
-8 | [Fresh Segments](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-8:-Segmentos-nuevos) |  hnloop,ñkkkkkkkk
+7 | [Balanced Tree](https://github.com/litahu/Challenge-SQL-de-8-semanas#-caso-práctico-Nº-7:-Balanced-Tree-Clothing-Co) | hnloop,ñkkkkkkkk
+8 | [Fresh Segments](https://github.com/litahu/Challenge-SQL-de-8-semanas#-caso-práctico-Nº-8:-Segmentos-nuevos) |  hnloop,ñkkkkkkkk
 
 <br>
 #-Caso-práctico-Nº-8:-Segmentos-nuevos
