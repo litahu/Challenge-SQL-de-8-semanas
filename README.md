@@ -12,14 +12,12 @@ No | Outline | Description
 5 | [Data Mart](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-5:-Data-Mart) | hnloop,ñkkkkkkkk
 6 | [CliqueBait](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-6:-CliqueBait) |  hnloop,ñkkkkkkkk
 7 | [Balanced Tree](https://github.com/litahu/Challenge-SQL-de-8-semanas?tab=readme-ov-file#-caso-pr%C3%A1ctico-n%C2%BA-7-balanced-tree-clothing-co) | hnloop,ñkkkkkkkk
-8 | [Fresh Segments](https://github.com/litahu/Challenge-SQL-de-8-semanas#-caso-práctico-Nº-8:-Segmentos-nuevos) |  hnloop,ñkkkkkkkk
+8 | [Fresh Segments](https://github.com/litahu/Challenge-SQL-de-8-semanas?tab=readme-ov-file#-caso-pr%C3%A1ctico-n%C2%BA-8-segmentos-nuevos) |  hnloop,ñkkkkkkkk
 
-https://github.com/litahu/Challenge-SQL-de-8-semanas?tab=readme-ov-file#-caso-pr%C3%A1ctico-n%C2%BA-7-balanced-tree-clothing-co
 <br>
-#-Caso-práctico-Nº-8:-Segmentos-nuevos
-https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/README.md
+
 ---
-https://github.com/litahu/Challenge-SQL-de-8-semanas#-caso-practico-nº-7:-balanced-tree-clothing-co
+
 ## 📌 **Caso práctico Nº 1: Dannys´Diner**
 
 
