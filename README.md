@@ -1,7 +1,7 @@
 # 🚀 Challenge SQL de 8 semanas
 <br>
 
-**Herramienta** : PostgreSQL <br> 
+**Herramienta** : MySQL <br> 
 **Visualización** : Microsoft Excel <br>
 **Dataset** : Desafío SQL - ["Data With Danny"](https://8weeksqlchallenge.com/)
 <br>
@@ -10,7 +10,7 @@
 
 No | Outline | Description
 ---|---|---
-1 | [Dannys´Diner](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-1:-Dannys´Diner) | Analice más de cerca el comportamiento de los clientes, y utilice técnicas PostgreSQL para identificar sus patrones de consumo
+1 | [Dannys´Diner](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-1:-Dannys´Diner) | Analice más de cerca el comportamiento de los clientes de comida japonesa, y utilice técnicas MySQL para identificar sus patrones de consumo
 2 | [Pizza Runner](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-2:-Pizza-Runner) | hnloop,ñkkkkkkkk
 3 | [Foodie-FI](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-3:-Foodie-FI) | hnloop,ñkkkkkkkk
 4 | [Data Bank](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-4:-Data-Bank) | hnloop,ñkkkkkkkk
