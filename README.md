@@ -23,18 +23,18 @@ No | Outline | Description
 
 ---
 
-## 📌 **Caso práctico Nº 1: Dannys´Diner**
+# 📌 **Caso práctico Nº 1: Dannys´Diner**
 
 <p align="center">
   <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/assets/week_1.JPG"></kbd> <br>
 </p>
 <br>
 
-### **Problema del negocio**
+## **Problema del negocio**
 
 Frente al primer emprendimiento de Dany: un restaurante de comida que lleva pocos meses de funcionamiento en una zona muy comercial. No obstante, últimamente, ha estado preocupado pues su negocio tiene un flujo de caja estancada. En ese sentido Dany para mantener a flote el negocio se ha interesado por ampliar su cartera de clientes más leales.
 
-### **Análisis de datos**
+## **Análisis de datos**
 <br> <br>
 1. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
 ```
@@ -104,22 +104,89 @@ GROUP BY B.product_name
 ORDER BY [Cantidad de veces comprado] DESC;
 ```
 <br> <br>
-6. ¿Qué artículo compró primero el cliente después de convertirse en miembro?
-    ```
-    terraform apply
-    ```
+6. ¿Qué artículo compró primero el cliente después de hacerse miembro?
+```
+WITH ComprasPosteriores AS (
+    SELECT
+        m.customer_id,
+        s.order_date,
+        me.product_name,
+        ROW_NUMBER() OVER (
+            PARTITION BY m.customer_id
+            ORDER BY s.order_date
+        ) AS fila
+    FROM [Challenge_sql].[dbo].[members] m
+    JOIN [Challenge_sql].[dbo].[sales] s
+        ON m.customer_id = s.customer_id
+    JOIN [Challenge_sql].[dbo].[menu] me
+        ON s.product_id = me.product_id
+    WHERE s.order_date > m.join_date
+)
+SELECT
+    customer_id AS Cliente,
+    order_date AS [Fecha de compra],
+    product_name AS [Primer artículo comprado]
+FROM ComprasPosteriores
+WHERE fila = 1
+ORDER BY Cliente;
+```
 7. ¿Qué artículo se compró justo antes de que el cliente se convirtiera en miembro?
-     ```
-    terraform apply
-    ```
+```
+WITH ComprasPrevias AS (
+    SELECT
+        m.customer_id,
+        s.order_date,
+        me.product_name,
+        ROW_NUMBER() OVER (
+            PARTITION BY m.customer_id
+            ORDER BY s.order_date DESC
+        ) AS fila
+    FROM [Challenge_sql].[dbo].[members] m
+    JOIN [Challenge_sql].[dbo].[sales] s
+        ON m.customer_id = s.customer_id
+    JOIN [Challenge_sql].[dbo].[menu] me
+        ON s.product_id = me.product_id
+    WHERE s.order_date < m.join_date
+)
+SELECT
+    customer_id AS Cliente,
+    order_date AS [Fecha de compra],
+    product_name AS [Artículo previo a membresía]
+FROM ComprasPrevias
+WHERE fila = 1
+ORDER BY Cliente;
+```
 8. ¿Cuál es el total de artículos y la cantidad gastada por cada miembro antes de convertirse en miembro?
-     ```
-    terraform apply
-    ```
+```
+SELECT
+    m.customer_id AS Cliente,
+    COUNT(*) AS [Artículos comprados],
+    SUM(me.price) AS [Monto gastado]
+FROM [Challenge_sql].[dbo].[members] m
+JOIN [Challenge_sql].[dbo].[sales] s
+    ON m.customer_id = s.customer_id
+JOIN [Challenge_sql].[dbo].[menu] me
+    ON s.product_id = me.product_id
+WHERE s.order_date < m.join_date
+GROUP BY m.customer_id
+ORDER BY [Monto gastado] DESC;
+```
 9. Si cada $1 gastado equivale a 10 puntos y el sushi tiene un multiplicador de puntos de 2x, ¿cuántos puntos tendría cada cliente?
-     ```
-    terraform apply
-    ```
+```
+SELECT
+    s.customer_id AS Cliente,
+    SUM(
+        CASE 
+            WHEN me.product_name = 'sushi' THEN me.price * 10 * 2
+            ELSE me.price * 10
+        END
+    ) AS [Puntos acumulados]
+FROM [Challenge_sql].[dbo].[sales] s
+JOIN [Challenge_sql].[dbo].[menu] me
+    ON s.product_id = me.product_id
+GROUP BY s.customer_id
+ORDER BY [Puntos acumulados] DESC;
+```
 10. En la primera semana después de que un cliente se une al programa (incluida su fecha de unión), gana el doble de puntos en todos los artículos, no solo en sushi: ¿cuántos puntos tienen los clientes A y B al final de enero?
 ```
 SELECT
@@ -142,7 +209,7 @@ GROUP BY s.customer_id
 ORDER BY [Puntos hasta enero] DESC;
 ```
 
-### **Conclusiones**
+## **Conclusiones**
 
 
 
