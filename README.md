@@ -88,26 +88,39 @@ ORDER BY Cliente;
 
 4. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
 ```
-SELECT
-    B.product_name AS [Artículo más comprado],
+SELECT TOP 1
+    m.product_name AS [Artículo más comprado],
     COUNT(*) AS [Cantidad de veces comprado]
-FROM [Challenge_sql].[dbo].[sales] A
-    JOIN [Challenge_sql].[dbo].[menu] B
-        ON A.product_id = B.product_id
-GROUP BY B.product_name
-ORDER BY [Cantidad de veces comprado] DESC;
+FROM [Challenge_sql].[dbo].[sales] s
+JOIN [Challenge_sql].[dbo].[menu] m
+    ON s.product_id = m.product_id
+GROUP BY m.product_name
+ORDER BY COUNT(*) DESC;
 ```
 
 5. ¿Qué artículo fue el más popular para cada cliente?
 ```
+WITH ConteoCompras AS (
+    SELECT
+        s.customer_id,
+        m.product_name,
+        COUNT(*) AS cantidad,
+        ROW_NUMBER() OVER (
+            PARTITION BY s.customer_id
+            ORDER BY COUNT(*) DESC
+        ) AS fila
+    FROM [Challenge_sql].[dbo].[sales] s
+    JOIN [Challenge_sql].[dbo].[menu] m
+        ON s.product_id = m.product_id
+    GROUP BY s.customer_id, m.product_name
+)
 SELECT
-    B.product_name AS [Artículo más comprado],
-    COUNT(*) AS [Cantidad de veces comprado]
-FROM [Challenge_sql].[dbo].[sales] A
-    JOIN [Challenge_sql].[dbo].[menu] B
-        ON A.product_id = B.product_id
-GROUP BY B.product_name
-ORDER BY [Cantidad de veces comprado] DESC;
+    customer_id AS Cliente,
+    product_name AS [Artículo más popular],
+    cantidad AS [Veces comprado]
+FROM ConteoCompras
+WHERE fila = 1
+ORDER BY Cliente;
 ```
 
 6. ¿Qué artículo compró primero el cliente después de hacerse miembro?
