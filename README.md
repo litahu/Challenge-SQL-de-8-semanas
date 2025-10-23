@@ -36,7 +36,7 @@ Frente al primer emprendimiento de Dany: un restaurante de comida que lleva poco
 
 ### **Análisis de datos**
 
-    ```
+```
    --- ===== PREGUNTAS CASO DE ESTUDIO =====
 
 /* ¿Cuál es el monto total que gastó cada cliente en el restaurante? */
@@ -203,8 +203,9 @@ WHERE s.order_date <= '2025-01-31'
   AND s.customer_id IN ('A', 'B')
 GROUP BY s.customer_id
 ORDER BY [Puntos hasta enero] DESC;
+```
 
-    ```
+
 2. ¿Cuántos días ha visitado cada cliente el restaurante?
     ```
     terraform init
