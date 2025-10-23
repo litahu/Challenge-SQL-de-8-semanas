@@ -14,14 +14,69 @@ Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a
 2. **Crecimiento de demanda por cliente**
 3. **Efectividad de la membresía**
 
-<br>
-
-## 📂**Análisis de datos**
 <p align="center">
   <kbd> <img width="550" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/01_DannysDinner/asset/q_1.PNG"></kbd> <br>
   Imagen 1 — Diagrama de relación de miembros, venta y productos de Dannys´Diner
 </p>
+```
 
+USE Challenge_sql;
+
+-- Tabla del menú
+CREATE TABLE menu (
+    product_id INTEGER PRIMARY KEY,
+    product_name VARCHAR(50),
+    price INTEGER
+);
+
+-- Tabla de miembros
+CREATE TABLE members (
+    customer_id VARCHAR(1) PRIMARY KEY,
+    join_date DATE
+);
+
+-- Tabla de ventas con clave primaria artificial
+CREATE TABLE sales (
+    sale_id INT IDENTITY(1,1) PRIMARY KEY, -- clave primaria autoincremental
+    customer_id VARCHAR(1),
+    order_date DATE,
+    product_id INTEGER
+);
+
+-- Datos de ventas
+INSERT INTO sales (customer_id, order_date, product_id) VALUES
+('A', '2021-01-01', 1),
+('A', '2021-01-01', 2),
+('A', '2021-01-07', 2),
+('A', '2021-01-10', 3),
+('A', '2021-01-11', 3),
+('A', '2021-01-11', 3),
+('B', '2021-01-01', 2),
+('B', '2021-01-02', 2),
+('B', '2021-01-04', 1),
+('B', '2021-01-11', 1),
+('B', '2021-01-16', 3),
+('B', '2021-02-01', 3),
+('C', '2021-01-01', 3),
+('C', '2021-01-01', 3),
+('C', '2021-01-07', 3);
+
+-- Datos del menú
+INSERT INTO menu (product_id, product_name, price) VALUES
+(1, 'sushi', 10),
+(2, 'curry', 15),
+(3, 'ramen', 12);
+
+-- Datos de miembros
+INSERT INTO members (customer_id, join_date) VALUES
+('A', '2021-01-07'),
+('B', '2021-01-09');<img width="518" height="914" alt="image" src="https://github.com/user-attachments/assets/0e218874-9697-417d-9acf-e5c413917dbe" />
+
+```
+
+<br>
+
+## 📂**Análisis de datos**
 <br>
 
 1. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
