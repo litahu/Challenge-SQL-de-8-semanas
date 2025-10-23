@@ -30,9 +30,13 @@ No | Outline | Description
 </p>
 <br>
 
-## **Problema del negocio**
+## **Historia de fondo**
 
-Frente al primer emprendimiento de Dany: un restaurante de comida que lleva pocos meses de funcionamiento en una zona muy comercial. No obstante, últimamente, ha estado preocupado pues su negocio tiene un flujo de caja estancada. En ese sentido Dany para mantener a flote el negocio se ha interesado por ampliar su cartera de clientes más leales.
+Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a monitorear y evaluar el éxito o el fracaso de diversos procesos. De ese modo ante un estancamiento del flujo de caja, Dany se ha interesado por ampliar su cartera de clientes más leales como estrategia para revertir dicha situación. En ese contexto, la preparación empresarial exige aplicar métodos de gestión que permitan medir el rendimiento con precisión y mantener el negocio en marcha.
+### **Objetivo**
+1. **Categoría de productos por ventas**
+2. **Crecimiento de demanda por cliente**
+3. **Efectividad de la membresía**
 
 ## **Análisis de datos**
 <br> <br>
@@ -48,7 +52,7 @@ FROM [Challenge_sql].[dbo].[menu] A
 GROUP BY B.customer_id
 ORDER BY [Monto total] DESC;
 ```
-<br> <br>
+
 2. ¿Cuántos días ha visitado cada cliente el restaurante?
 ```
 SELECT
@@ -58,7 +62,7 @@ FROM [Challenge_sql].[dbo].[sales]
 GROUP BY customer_id
 ORDER BY Presente DESC;
 ```
-<br> <br>
+
 3. ¿Cuál fue el primer artículo del menú comprado por cada cliente?
 ```
 WITH PrimerCompra AS (
@@ -79,7 +83,7 @@ FROM PrimerCompra
 WHERE fila = 1
 ORDER BY Cliente;
 ```
-<br> <br>
+
 4. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
 ```
 SELECT
@@ -91,7 +95,7 @@ FROM [Challenge_sql].[dbo].[sales] A
 GROUP BY B.product_name
 ORDER BY [Cantidad de veces comprado] DESC;
 ```
-<br> <br>
+
 5. ¿Qué artículo fue el más popular para cada cliente?
 ```
 SELECT
@@ -103,7 +107,7 @@ FROM [Challenge_sql].[dbo].[sales] A
 GROUP BY B.product_name
 ORDER BY [Cantidad de veces comprado] DESC;
 ```
-<br> <br>
+
 6. ¿Qué artículo compró primero el cliente después de hacerse miembro?
 ```
 WITH ComprasPosteriores AS (
