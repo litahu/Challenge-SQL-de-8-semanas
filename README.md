@@ -36,11 +36,8 @@ Frente al primer emprendimiento de Dany: un restaurante de comida que lleva poco
 
 ### **Análisis de datos**
 
+1. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
 ```
-   --- ===== PREGUNTAS CASO DE ESTUDIO =====
-
-/* ¿Cuál es el monto total que gastó cada cliente en el restaurante? */
-
 SELECT
     B.customer_id AS Cliente,
     SUM(A.price) AS [Monto total]
@@ -50,18 +47,20 @@ FROM [Challenge_sql].[dbo].[menu] A
 		ON A.product_id = B.product_id
 GROUP BY B.customer_id
 ORDER BY [Monto total] DESC;
+```
 
-/* ¿Cuántos días ha visitado cada cliente el restaurante?  */
-
+2. ¿Cuántos días ha visitado cada cliente el restaurante?
+```
 SELECT
     customer_id AS Cliente,
     COUNT(DISTINCT order_date) AS Presente
 FROM [Challenge_sql].[dbo].[sales]
 GROUP BY customer_id
 ORDER BY Presente DESC;
+```
 
-/* ¿Cuál fue el primer artículo del menú comprado por cada cliente?  */
-
+3. ¿Cuál fue el primer artículo del menú comprado por cada cliente?
+```
 WITH PrimerCompra AS (
     SELECT
         A.customer_id AS Cliente,
@@ -79,9 +78,10 @@ SELECT
 FROM PrimerCompra
 WHERE fila = 1
 ORDER BY Cliente;
+```
 
-/* ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?  */
-
+4. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
+```
 SELECT
     B.product_name AS [Artículo más comprado],
     COUNT(*) AS [Cantidad de veces comprado]
@@ -90,9 +90,9 @@ FROM [Challenge_sql].[dbo].[sales] A
         ON A.product_id = B.product_id
 GROUP BY B.product_name
 ORDER BY [Cantidad de veces comprado] DESC;
-
-/* ¿Qué artículo fue el más popular para cada cliente?  */
-
+```
+5. ¿Qué artículo fue el más popular para cada cliente?
+    ```
 SELECT
     B.product_name AS [Artículo más comprado],
     COUNT(*) AS [Cantidad de veces comprado]
@@ -101,90 +101,25 @@ FROM [Challenge_sql].[dbo].[sales] A
         ON A.product_id = B.product_id
 GROUP BY B.product_name
 ORDER BY [Cantidad de veces comprado] DESC;
-
-/* ¿Qué artículo compró primero el cliente después de hacerse miembro? */
-WITH ComprasPosteriores AS (
-    SELECT
-        m.customer_id,
-        s.order_date,
-        me.product_name,
-        ROW_NUMBER() OVER (
-            PARTITION BY m.customer_id
-            ORDER BY s.order_date
-        ) AS fila
-    FROM [Challenge_sql].[dbo].[members] m
-    JOIN [Challenge_sql].[dbo].[sales] s
-        ON m.customer_id = s.customer_id
-    JOIN [Challenge_sql].[dbo].[menu] me
-        ON s.product_id = me.product_id
-    WHERE s.order_date > m.join_date
-)
-SELECT
-    customer_id AS Cliente,
-    order_date AS [Fecha de compra],
-    product_name AS [Primer artículo comprado]
-FROM ComprasPosteriores
-WHERE fila = 1
-ORDER BY Cliente;
-
-/* ¿Qué artículo se compró justo antes de que el cliente se convirtiera en miembro? */
-WITH ComprasPrevias AS (
-    SELECT
-        m.customer_id,
-        s.order_date,
-        me.product_name,
-        ROW_NUMBER() OVER (
-            PARTITION BY m.customer_id
-            ORDER BY s.order_date DESC
-        ) AS fila
-    FROM [Challenge_sql].[dbo].[members] m
-    JOIN [Challenge_sql].[dbo].[sales] s
-        ON m.customer_id = s.customer_id
-    JOIN [Challenge_sql].[dbo].[menu] me
-        ON s.product_id = me.product_id
-    WHERE s.order_date < m.join_date
-)
-SELECT
-    customer_id AS Cliente,
-    order_date AS [Fecha de compra],
-    product_name AS [Artículo previo a membresía]
-FROM ComprasPrevias
-WHERE fila = 1
-ORDER BY Cliente;
-
-/* ¿Cuál es el total de artículos y el monto gastado por cada miembro antes de convertirse en miembro? */
-SELECT
-    m.customer_id AS Cliente,
-    COUNT(*) AS [Artículos comprados],
-    SUM(me.price) AS [Monto gastado]
-FROM [Challenge_sql].[dbo].[members] m
-JOIN [Challenge_sql].[dbo].[sales] s
-    ON m.customer_id = s.customer_id
-JOIN [Challenge_sql].[dbo].[menu] me
-    ON s.product_id = me.product_id
-WHERE s.order_date < m.join_date
-GROUP BY m.customer_id
-ORDER BY [Monto gastado] DESC;
-
-
-/* Si cada $1 gastado equivale a 10 puntos y el sushi tiene un multiplicador de puntos de 2x, ¿cuántos puntos 
-tendría cada cliente? */
-SELECT
-    s.customer_id AS Cliente,
-    SUM(
-        CASE 
-            WHEN me.product_name = 'sushi' THEN me.price * 10 * 2
-            ELSE me.price * 10
-        END
-    ) AS [Puntos acumulados]
-FROM [Challenge_sql].[dbo].[sales] s
-JOIN [Challenge_sql].[dbo].[menu] me
-    ON s.product_id = me.product_id
-GROUP BY s.customer_id
-ORDER BY [Puntos acumulados] DESC;
-
-/* En la primera semana después de que un cliente se une al programa (incluida su fecha de unión), gana 2x puntos 
-en todos los artículos,no solo en sushi: ¿cuántos puntos tienen los clientes A y B al final de enero? */
+    ```
+6. ¿Qué artículo compró primero el cliente después de convertirse en miembro?
+    ```
+    terraform apply
+    ```
+7. ¿Qué artículo se compró justo antes de que el cliente se convirtiera en miembro?
+     ```
+    terraform apply
+    ```
+8. ¿Cuál es el total de artículos y la cantidad gastada por cada miembro antes de convertirse en miembro?
+     ```
+    terraform apply
+    ```
+9. Si cada $1 gastado equivale a 10 puntos y el sushi tiene un multiplicador de puntos de 2x, ¿cuántos puntos tendría cada cliente?
+     ```
+    terraform apply
+    ```
+10. En la primera semana después de que un cliente se une al programa (incluida su fecha de unión), gana el doble de puntos en todos los artículos, no solo en sushi: ¿cuántos puntos tienen los clientes A y B al final de enero?
+```
 SELECT
     s.customer_id AS Cliente,
     SUM(
@@ -204,44 +139,6 @@ WHERE s.order_date <= '2025-01-31'
 GROUP BY s.customer_id
 ORDER BY [Puntos hasta enero] DESC;
 ```
-
-
-2. ¿Cuántos días ha visitado cada cliente el restaurante?
-    ```
-    terraform init
-    ```
-3. ¿Cuál fue el primer artículo del menú que compró cada cliente?
-    ```
-    terraform apply
-    ```
-4. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
-    ```
-    terraform apply
-    ```
-5. ¿Qué artículo fue el más popular para cada cliente?
-    ```
-    terraform apply
-    ```
-6. ¿Qué artículo compró primero el cliente después de convertirse en miembro?
-    ```
-    terraform apply
-    ```
-7. ¿Qué artículo se compró justo antes de que el cliente se convirtiera en miembro?
-     ```
-    terraform apply
-    ```
-8. ¿Cuál es el total de artículos y la cantidad gastada por cada miembro antes de convertirse en miembro?
-     ```
-    terraform apply
-    ```
-9. Si cada $1 gastado equivale a 10 puntos y el sushi tiene un multiplicador de puntos de 2x, ¿cuántos puntos tendría cada cliente?
-     ```
-    terraform apply
-    ```
-10. En la primera semana después de que un cliente se une al programa (incluida su fecha de unión), gana el doble de puntos en todos los artículos, no solo en sushi: ¿cuántos puntos tienen los clientes A y B al final de enero?
-     ```
-    terraform apply
-    ```
 
 ### **Conclusiones**
 
