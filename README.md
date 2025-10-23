@@ -35,7 +35,7 @@ No | Outline | Description
 Frente al primer emprendimiento de Dany: un restaurante de comida que lleva pocos meses de funcionamiento en una zona muy comercial. No obstante, últimamente, ha estado preocupado pues su negocio tiene un flujo de caja estancada. En ese sentido Dany para mantener a flote el negocio se ha interesado por ampliar su cartera de clientes más leales.
 
 ### **Análisis de datos**
-
+<br> <br>
 1. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
 ```
 SELECT
@@ -59,7 +59,6 @@ GROUP BY customer_id
 ORDER BY Presente DESC;
 ```
 <br> <br>
-<br>
 3. ¿Cuál fue el primer artículo del menú comprado por cada cliente?
 ```
 WITH PrimerCompra AS (
@@ -80,8 +79,7 @@ FROM PrimerCompra
 WHERE fila = 1
 ORDER BY Cliente;
 ```
-<br>
-<br>
+<br> <br>
 4. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
 ```
 SELECT
@@ -93,7 +91,7 @@ FROM [Challenge_sql].[dbo].[sales] A
 GROUP BY B.product_name
 ORDER BY [Cantidad de veces comprado] DESC;
 ```
-<br>
+<br> <br>
 5. ¿Qué artículo fue el más popular para cada cliente?
 ```
 SELECT
@@ -105,7 +103,7 @@ FROM [Challenge_sql].[dbo].[sales] A
 GROUP BY B.product_name
 ORDER BY [Cantidad de veces comprado] DESC;
 ```
-<br>
+<br> <br>
 6. ¿Qué artículo compró primero el cliente después de convertirse en miembro?
     ```
     terraform apply
