@@ -18,9 +18,11 @@ Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a
 
 ## 📂**Análisis de datos**
 <p align="center">
-  <kbd> <img width="400" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/01_DannysDinner/asset/q_1.PNG"></kbd> <br>
+  <kbd> <img width="550" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/01_DannysDinner/asset/q_1.PNG"></kbd> <br>
   Imagen 1 — Diagrama de relación de miembros, venta y productos de Dannys´Diner
 </p>
+
+<br>
 
 1. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
 ```
@@ -207,6 +209,7 @@ WHERE s.order_date <= '2025-01-31'
 GROUP BY s.customer_id
 ORDER BY [Puntos hasta enero] DESC;
 ```
+<br>
 
 ## 📂**Conclusiones**
 
