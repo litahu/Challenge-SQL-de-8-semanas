@@ -15,10 +15,10 @@ Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a
 2. **Crecimiento de demanda por cliente**
 3. **Efectividad de la membresía**
 
-<p align="center">
-  <kbd> <img width="550" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/01_DannysDinner/asset/q_1.PNG"></kbd> <br>
-  Imagen 1 — Diagrama de relación de miembros, venta y productos de Dannys´Diner
-</p>
+
+---
+## 📂**Análisis de datos**
+
 
 ```
 USE Challenge_sql;
@@ -73,10 +73,11 @@ INSERT INTO members (customer_id, join_date) VALUES
 ('A', '2021-01-07'),
 ('B', '2021-01-09');<img width="518" height="914" alt="image" src="https://github.com/user-attachments/assets/0e218874-9697-417d-9acf-e5c413917dbe" />
 ```
+<p align="center">
+  <kbd> <img width="550" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/01_DannysDinner/asset/q_1.PNG"></kbd> <br>
+  Imagen 1 — Diagrama de relación de miembros, venta y productos de Dannys´Diner
+</p>
 
-<br>
-
-## 📂**Análisis de datos**
 <br>
 
 1. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
