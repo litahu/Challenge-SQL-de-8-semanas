@@ -16,9 +16,8 @@ Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a
 3. **Efectividad de la membresía**
 
 
----
-## 📂**Análisis de datos**
 
+## 📂**Análisis de datos**
 
 ```
 USE Challenge_sql;
