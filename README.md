@@ -48,7 +48,7 @@ FROM [Challenge_sql].[dbo].[menu] A
 GROUP BY B.customer_id
 ORDER BY [Monto total] DESC;
 ```
-<br>
+<br> <br>
 2. ¿Cuántos días ha visitado cada cliente el restaurante?
 ```
 SELECT
@@ -58,6 +58,7 @@ FROM [Challenge_sql].[dbo].[sales]
 GROUP BY customer_id
 ORDER BY Presente DESC;
 ```
+<br> <br>
 <br>
 3. ¿Cuál fue el primer artículo del menú comprado por cada cliente?
 ```
@@ -79,6 +80,7 @@ FROM PrimerCompra
 WHERE fila = 1
 ORDER BY Cliente;
 ```
+<br>
 <br>
 4. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
 ```
