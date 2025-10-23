@@ -6,7 +6,7 @@
 </p>
 <br>
 
-## **Historia de fondo**
+## 📂**Historia de fondo**
 
 Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a monitorear y evaluar el éxito o el fracaso de diversos procesos. De ese modo ante un estancamiento del flujo de caja, Dany se ha interesado por ampliar su cartera de clientes más leales como estrategia para revertir dicha situación. En ese contexto, la preparación empresarial exige aplicar métodos de gestión que permitan medir el rendimiento con precisión y mantener el negocio en marcha.
 ### **Objetivo**
@@ -16,9 +16,9 @@ Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a
 
 <br>
 
-## **Análisis de datos**
+## 📂**Análisis de datos**
 <p align="center">
-  <kbd> <img width="700" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/01_DannysDinner/asset/q_1.PNG"></kbd> <br>
+  <kbd> <img width="400" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/01_DannysDinner/asset/q_1.PNG"></kbd> <br>
   Imagen 1 — Diagrama de relación de miembros, venta y productos de Dannys´Diner
 </p>
 
@@ -208,11 +208,11 @@ GROUP BY s.customer_id
 ORDER BY [Puntos hasta enero] DESC;
 ```
 
-## **Conclusiones**
+## 📂**Conclusiones**
 
 
 
-### **Conclusiones**
+
 
 
 <br>
