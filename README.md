@@ -48,7 +48,7 @@ FROM [Challenge_sql].[dbo].[menu] A
 GROUP BY B.customer_id
 ORDER BY [Monto total] DESC;
 ```
-
+<br>
 2. ¿Cuántos días ha visitado cada cliente el restaurante?
 ```
 SELECT
@@ -58,7 +58,7 @@ FROM [Challenge_sql].[dbo].[sales]
 GROUP BY customer_id
 ORDER BY Presente DESC;
 ```
-
+<br>
 3. ¿Cuál fue el primer artículo del menú comprado por cada cliente?
 ```
 WITH PrimerCompra AS (
@@ -79,7 +79,7 @@ FROM PrimerCompra
 WHERE fila = 1
 ORDER BY Cliente;
 ```
-
+<br>
 4. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
 ```
 SELECT
@@ -91,8 +91,9 @@ FROM [Challenge_sql].[dbo].[sales] A
 GROUP BY B.product_name
 ORDER BY [Cantidad de veces comprado] DESC;
 ```
+<br>
 5. ¿Qué artículo fue el más popular para cada cliente?
-    ```
+```
 SELECT
     B.product_name AS [Artículo más comprado],
     COUNT(*) AS [Cantidad de veces comprado]
@@ -101,7 +102,8 @@ FROM [Challenge_sql].[dbo].[sales] A
         ON A.product_id = B.product_id
 GROUP BY B.product_name
 ORDER BY [Cantidad de veces comprado] DESC;
-    ```
+```
+<br>
 6. ¿Qué artículo compró primero el cliente después de convertirse en miembro?
     ```
     terraform apply
