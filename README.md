@@ -21,4 +21,3 @@ No | Outline | Description
 
 <br>
 
----<img width="596" height="668" alt="image" src="https://github.com/user-attachments/assets/af05b744-6fe5-48e5-9364-034470191701" />
