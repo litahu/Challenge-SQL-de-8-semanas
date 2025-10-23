@@ -70,7 +70,7 @@ INSERT INTO menu (product_id, product_name, price) VALUES
 -- Datos de miembros
 INSERT INTO members (customer_id, join_date) VALUES
 ('A', '2021-01-07'),
-('B', '2021-01-09');<img width="518" height="914" alt="image" src="https://github.com/user-attachments/assets/0e218874-9697-417d-9acf-e5c413917dbe" />
+('B', '2021-01-09');
 ```
 <p align="center">
   <kbd> <img width="550" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/01_DannysDinner/asset/q_1.PNG"></kbd> <br>
