@@ -15,7 +15,7 @@ Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a
 1. **Categoría de productos por ventas**
 2. **Crecimiento de demanda por cliente**
 3. **Efectividad de la membresía**
-
+<br>
 
 
 ## 📂**Análisis de datos**
