@@ -1,9 +1,9 @@
 
 # 📌 **Caso práctico Nº 1: Dannys´Diner**
----
 
 <p align="center">
   <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/assets/week_1.JPG"></kbd> <br>
+  Imagen 1 — Diagrama de relación de miembros, venta y productos de Dannys´Diner
 </p>
 <br>
 
@@ -18,6 +18,9 @@ Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a
 <br>
 
 ## **Análisis de datos**
+<p align="center">
+  <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/01_DannysDinner/asset/q_1.PNG"></kbd> <br>
+</p>
 
 1. ¿Cuál es el artículo más comprado del menú y cuántas veces lo compraron todos los clientes?
 ```
