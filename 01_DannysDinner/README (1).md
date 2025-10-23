@@ -20,6 +20,7 @@ Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a
 
 ## 📂**Análisis de datos**
 <br>
+
 ```
 USE Challenge_sql;
 
@@ -267,6 +268,7 @@ GROUP BY s.customer_id
 ORDER BY [Puntos hasta enero] DESC;
 
 ```
+
 <br>
 
 ## 📂**Conclusiones**
