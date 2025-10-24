@@ -20,6 +20,8 @@ Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a
 ## 📂**Análisis de datos**
 <br>
 
+Utilizo SQL Server para comprender el negocio:
+
 ```
 USE Challenge_sql;
 
