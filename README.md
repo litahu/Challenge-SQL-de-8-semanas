@@ -2,7 +2,7 @@
 <br>
 
 **Herramienta** : SQL server <br> 
-**Visualización** : Microsoft Excel <br>
+**Visualización** : Matplotlib <br>
 **Dataset** : Desafío SQL - ["Data With Danny"](https://8weeksqlchallenge.com/)
 <br>
 
