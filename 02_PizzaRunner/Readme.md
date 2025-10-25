@@ -157,6 +157,7 @@ Puede inspeccionar el diagrama de relación de entidades y los datos de ejemplo 
   Imagen 1 — Diagrama de relación de miembros, venta y productos de Danny's Diner
 
 <br>
+
 ### Métricas de pizza
 ---
 1. ¿Cuántas pizzas se pidieron?
@@ -308,6 +309,7 @@ Puede inspeccionar el diagrama de relación de entidades y los datos de ejemplo 
 
 
 <br>
+
 
 
 
