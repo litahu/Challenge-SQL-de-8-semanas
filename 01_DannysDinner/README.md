@@ -1,4 +1,4 @@
-# 📌 **Caso práctico Nº 1: Dannys´Diner**
+# 📌 **Caso práctico Nº 1: Danny's Diner**
 
 <p align="center">
   <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/assets/week_1.JPG"></kbd> <br>
