@@ -30,6 +30,7 @@ Danny ha compartido contigo 3 conjuntos de datos clave para este estudio de caso
 * sales
 * menu
 * members
+<br>
 
 ```
 USE Challenge_sql;
