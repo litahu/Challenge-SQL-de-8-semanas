@@ -287,7 +287,15 @@ ORDER BY [Puntos hasta enero] DESC;
 
 ## 📂**Conclusiones**
 
-Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a monitorear y evaluar el éxito o el fracaso de diversos procesos. De ese modo ante un estancamiento del flujo de caja, Dany se ha interesado por ampliar su cartera de clientes más leales como estrategia para revertir dicha situación. En ese contexto, la preparación empresarial exige aplicar métodos de gestión que permitan medir el rendimiento con precisión y mantener el negocio en marcha.
+Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a monitorear y evaluar el éxito o el fracaso de diversos procesos. De ese modo, Dany se ha interesado por ampliar su cartera de clientes mejorando su experiencia. Frente a ello, la preparación empresarial exige aplicar métodos de gestión para mantener el negocio en marcha: 
+
+1. El artículo más demandado por todoos los clientes es el Ramen.
+2. El monto total gastado permite identificar que el cliente más valioso es el Cliente A.
+<p align="center">
+  <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/01_DannysDinner/asset/querydinner_5.PNG"></kbd> <br>
+</p>
+3. Cada cliente tiene un artículo favorito distinto(Cliente A y C con el Rame, mientras, el Cliente B es el sushi), lo que permite personalizar la experiencia.
+4. La membresia influye positivamente, ya que los clientes compraron más después de unirse(Puntos acumulados A con  1370 y B con 940)
 
 <br>
 
