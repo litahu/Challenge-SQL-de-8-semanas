@@ -11,7 +11,7 @@ Danny's Diner necesita su ayuda para ayudar al restaurante a mantenerse a flote:
 
 ## 📂**Historia de fondo**
 
-Danny quiere usar los datos para responder algunas preguntas sencillas sobre sus clientes, especialmente sobre sus hábitos de visita, cuánto han gastado y qué platos del menú son sus favoritos. Esta conexión más profunda con sus clientes le ayudará a ofrecer una experiencia mejor y más personalizada a sus clientes fieles.
+Danny quiere usar los datos para responder algunas preguntas sencillas sobre sus clientes, especialmente sobre sus hábitos de visita, cuánto han gastado y qué platos del menú son sus favoritos.**Esta conexión más profunda con sus clientes le ayudará a ofrecer una experiencia mejor y más personalizada a sus clientes fieles.**
 
 Planea utilizar estos conocimientos para ayudarlo a decidir si debe ampliar el programa de fidelización de clientes existente; además, necesita ayuda para generar algunos conjuntos de datos básicos para que su equipo pueda inspeccionar fácilmente los datos sin necesidad de usar SQL.
 
@@ -89,7 +89,7 @@ Puede inspeccionar el diagrama de relación de entidades y los datos de ejemplo 
 
 <p align="center">
   <kbd> <img width="550" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/01_DannysDinner/asset/q_1.PNG"></kbd> <br>
-  Imagen 1 — Diagrama de relación de miembros, venta y productos de Dannys´Diner
+  Imagen 1 — Diagrama de relación de miembros, venta y productos de Danny's Diner
 </p>
 
 <br>
