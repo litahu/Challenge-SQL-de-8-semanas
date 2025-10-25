@@ -162,11 +162,17 @@ Puede inspeccionar el diagrama de relación de entidades y los datos de ejemplo 
 ---
 1. ¿Cuántas pizzas se pidieron?
 ```
-    cd terraform
+SELECT
+	[Total de pizzas vendidas] = COUNT([pizza_id])
+FROM [Challenge_sql].[dbo].[customer_orders];
 ```
 2. ¿Cuántos pedidos de clientes únicos se realizaron?
 ```
-    terraform init
+SELECT
+	[customer_id],
+	COUNT(*) AS Total_ordenes
+FROM [Challenge_sql].[dbo].[customer_orders]
+GROUP BY [customer_id];
 ```
 3. ¿Cuántos pedidos entregados con éxito fueron realizados por cada corredor?
 ```
@@ -309,6 +315,7 @@ Puede inspeccionar el diagrama de relación de entidades y los datos de ejemplo 
 
 
 <br>
+
 
 
 
