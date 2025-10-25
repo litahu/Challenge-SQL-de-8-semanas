@@ -294,8 +294,9 @@ Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a
 <p align="center">
   <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/01_DannysDinner/asset/querydinner_5.PNG"></kbd> <br>
 </p>
+
 3. Cada cliente tiene un artículo favorito distinto(Cliente A y C con el Rame, mientras, el Cliente B es el sushi), lo que permite personalizar la experiencia.
-4. La membresia influye positivamente, ya que los clientes compraron más después de unirse(Puntos acumulados A con  1370 y B con 940)
+4. La membresia influye positivamente, ya que los clientes compraron más después de unirse(Puntos acumulados A con  1370 y B con 940).
 
 <br>
 
