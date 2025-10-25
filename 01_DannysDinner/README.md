@@ -25,11 +25,13 @@ Danny le ha proporcionado una muestra de los datos generales de sus clientes deb
 
 
 ## 📂**Análisis de datos**
-<br>
+
 Danny ha compartido contigo 3 conjuntos de datos clave para este estudio de caso:
-	* sales
-	* menu
-	* members
+
+* sales
+* menu
+* members
+
 <br>
 
 ```
