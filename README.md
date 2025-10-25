@@ -10,7 +10,7 @@
 
 Nº |  Outline  | Description
 ---|--------|---
-1 | [Dannys´Diner](https://github.com/litahu/Challenge-SQL-de-8-semanas/tree/main/01_DannysDinner) | Observe más de cerca el comportamiento del cliente y la frecuencia de consumo de los productos, y utilice técnicas SQL Server para identificar a clientes más valiosos y explorar de qué canales provienen.
+1 | [Danny's Diner](https://github.com/litahu/Challenge-SQL-de-8-semanas/tree/main/01_DannysDinner) | Observe más de cerca el comportamiento del cliente y la frecuencia de consumo de los productos, y utilice técnicas SQL Server para identificar a clientes más valiosos y explorar de qué canales provienen.
 2 | [Pizza Runner](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-2:-Pizza-Runner) | Optimicé las operaciones de Pizza Runner para mejorar el tiempo de repartición
 3 | [Foodie-FI](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-3:-Foodie-FI) | Analicé de dónde proviene el tráfico de nuestro sitio web en términos de volumen de tráfico y tasas de conversión de las suscripciones
 4 | [Data Bank](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-4:-Data-Bank) | Profundice en los datos del sitio web a nivel de página para comparar el tráfico y las tasas de conversión, y utilice SQL Server para crear y analizar embudos de conversión para ayudar a optimizar la experiencia de compra del cliente.
