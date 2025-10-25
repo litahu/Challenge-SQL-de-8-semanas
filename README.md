@@ -9,7 +9,7 @@
 ## 📂 **Esquema**
 
 No | Outline | Description
----|---|---
+---|-----|---
 1 | [Dannys´Diner](https://github.com/litahu/Challenge-SQL-de-8-semanas/tree/main/01_DannysDinner) | Observe más de cerca el comportamiento del cliente y la frecuencia de consumo de los productos, y utilice técnicas SQL Server para identificar a clientes más valiosos y explorar de qué canales provienen.
 2 | [Pizza Runner](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-2:-Pizza-Runner) | Optimicé las operaciones de Pizza Runner para mejorar el tiempo de repartición
 3 | [Foodie-FI](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-3:-Foodie-FI) | Analicé de dónde proviene el tráfico de nuestro sitio web en términos de volumen de tráfico y tasas de conversión de las suscripciones
