@@ -150,8 +150,15 @@ INSERT INTO pizza_toppings (topping_id, topping_name) VALUES
   (12, 'Tomato Sauce');
 ```
 
-### Métricas de pizza
+Puede inspeccionar el diagrama de relación de entidades y los datos de ejemplo a continuación:
 
+<p align="center">
+  <kbd> <img width="550" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/02_PizzaRunner/02_DER.PNG"></kbd> <br>
+  Imagen 1 — Diagrama de relación de miembros, venta y productos de Danny's Diner
+
+<br>
+### Métricas de pizza
+---
 1. ¿Cuántas pizzas se pidieron?
 ```
     cd terraform
@@ -301,5 +308,6 @@ INSERT INTO pizza_toppings (topping_id, topping_name) VALUES
 
 
 <br>
+
 
 
