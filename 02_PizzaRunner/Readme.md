@@ -1,4 +1,4 @@
-## 📌 **Caso práctico Nº 2: Pizza Runner**
+# 📌 **Caso práctico Nº 2: Pizza Runner**
 
 <p align="center">
   <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/assets/week_2.JPG"></kbd> <br>
@@ -19,7 +19,7 @@ Danny comenzó reclutando "corredores" para entregar pizza fresca desde la sede 
 ### **Objetivo**
 1. **Optimizar las operaciones de Pizza Runner**
 2. **Dirigir mejor a sus corredores**
-<br>
+
 
 ## 📂**Análisis de datos**
 Danny ha compartido contigo 3 conjuntos de datos clave para este estudio de caso:
@@ -36,9 +36,6 @@ Danny ha compartido contigo 3 conjuntos de datos clave para este estudio de caso
 -- -------------------------------
 -- Creación de tablas
 -- -------------------------------
-
-/* Date: 24/10/2025,
-   Autora: Lita Hume */
 
 DROP TABLE IF EXISTS runners;
 DROP TABLE IF EXISTS customer_orders;
@@ -154,7 +151,7 @@ INSERT INTO pizza_toppings (topping_id, topping_name) VALUES
 ```
 
 ### Métricas de pizza
----
+
 1. ¿Cuántas pizzas se pidieron?
 ```
     cd terraform
@@ -304,4 +301,5 @@ INSERT INTO pizza_toppings (topping_id, topping_name) VALUES
 
 
 <br>
+
 
