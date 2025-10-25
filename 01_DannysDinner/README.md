@@ -5,10 +5,17 @@
 </p>
 <br>
 
+A Danny le encanta la comida japonesa, así que a principios de 2021 decide embarcarse en una aventura arriesgada y abre un pequeño y lindo restaurante que vende sus tres comidas favoritas: sushi, curry y ramen.
+
+Danny's Diner necesita su ayuda para ayudar al restaurante a mantenerse a flote: el restaurante ha capturado algunos datos muy básicos de sus pocos meses de funcionamiento, pero no tiene idea de cómo usar esos datos para ayudarlos a administrar el negocio.
 
 ## 📂**Historia de fondo**
 
-Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a monitorear y evaluar el éxito o el fracaso de diversos procesos. De ese modo ante un estancamiento del flujo de caja, Dany se ha interesado por ampliar su cartera de clientes más leales como estrategia para revertir dicha situación. En ese contexto, la preparación empresarial exige aplicar métodos de gestión que permitan medir el rendimiento con precisión y mantener el negocio en marcha.
+Danny quiere usar los datos para responder algunas preguntas sencillas sobre sus clientes, especialmente sobre sus hábitos de visita, cuánto han gastado y qué platos del menú son sus favoritos. Esta conexión más profunda con sus clientes le ayudará a ofrecer una experiencia mejor y más personalizada a sus clientes fieles.
+
+Planea utilizar estos conocimientos para ayudarlo a decidir si debe ampliar el programa de fidelización de clientes existente; además, necesita ayuda para generar algunos conjuntos de datos básicos para que su equipo pueda inspeccionar fácilmente los datos sin necesidad de usar SQL.
+
+Danny le ha proporcionado una muestra de los datos generales de sus clientes debido a cuestiones de privacidad, pero espera que estos ejemplos sean suficientes para que usted pueda escribir consultas SQL completamente funcionales que lo ayuden a responder sus preguntas.
 
 ### **Objetivo**
 1. **Categoría de productos por ventas**
@@ -19,8 +26,10 @@ Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a
 
 ## 📂**Análisis de datos**
 <br>
-
-Utilizo SQL Server para comprender el negocio:
+Danny ha compartido contigo 3 conjuntos de datos clave para este estudio de caso:
+* sales
+* menu
+* members
 
 ```
 USE Challenge_sql;
@@ -75,6 +84,8 @@ INSERT INTO members (customer_id, join_date) VALUES
 ('A', '2021-01-07'),
 ('B', '2021-01-09');
 ```
+
+Puede inspeccionar el diagrama de relación de entidades y los datos de ejemplo a continuación:
 
 <p align="center">
   <kbd> <img width="550" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/01_DannysDinner/asset/q_1.PNG"></kbd> <br>
@@ -274,7 +285,7 @@ ORDER BY [Puntos hasta enero] DESC;
 
 ## 📂**Conclusiones**
 
-
+Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a monitorear y evaluar el éxito o el fracaso de diversos procesos. De ese modo ante un estancamiento del flujo de caja, Dany se ha interesado por ampliar su cartera de clientes más leales como estrategia para revertir dicha situación. En ese contexto, la preparación empresarial exige aplicar métodos de gestión que permitan medir el rendimiento con precisión y mantener el negocio en marcha.
 
 <br>
 
