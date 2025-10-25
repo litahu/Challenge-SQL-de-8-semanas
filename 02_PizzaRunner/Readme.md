@@ -176,35 +176,98 @@ GROUP BY [customer_id];
 ```
 3. ¿Cuántos pedidos entregados con éxito fueron realizados por cada corredor?
 ```
-    terraform apply
+SELECT 
+  runner_id,
+  COUNT(*) AS pedidos_exitosos
+FROM [Challenge_sql].[dbo].[runner_orders]
+WHERE pickup_time IS NOT NULL
+  AND (cancellation IS NULL OR CAST(cancellation AS VARCHAR(MAX)) = '')
+GROUP BY runner_id;
 ```
 4. ¿Cuántas pizzas de cada tipo se entregaron?
 ```
-    terraform apply
+SELECT 
+  pn.pizza_name,
+  COUNT(*) AS total_entregadas
+FROM [Challenge_sql].[dbo].[customer_orders] co
+JOIN [Challenge_sql].[dbo].[runner_orders] ro ON co.order_id = ro.order_id
+JOIN [Challenge_sql].[dbo].[pizza_names] pn ON co.pizza_id = pn.pizza_id
+WHERE ro.pickup_time IS NOT NULL
+  AND (ro.cancellation IS NULL OR CAST(ro.cancellation AS VARCHAR(MAX)) = '')
+GROUP BY pn.pizza_name
+ORDER BY total_entregadas DESC;
 ```
 5. ¿Cuántos vegetarianos y carnívoros pidió cada cliente?
 ```
-    terraform apply
+SELECT 
+  co.customer_id,
+  SUM(CASE WHEN pn.pizza_name = 'Vegetarian' THEN 1 ELSE 0 END) AS total_vegetarianas,
+  SUM(CASE WHEN pn.pizza_name = 'Meatlovers' THEN 1 ELSE 0 END) AS total_carnivoras
+FROM [Challenge_sql].[dbo].[customer_orders] co
+JOIN [Challenge_sql].[dbo].[pizza_names] pn ON co.pizza_id = pn.pizza_id
+GROUP BY co.customer_id
+ORDER BY co.customer_id;
 ```
 6. ¿Cuál fue el número máximo de pizzas entregadas en un solo pedido?
 ```
-    terraform apply
+SELECT TOP 1 
+  co.order_id,
+  COUNT(*) AS total_pizzas_entregadas
+FROM [Challenge_sql].[dbo].[customer_orders]  co
+JOIN [Challenge_sql].[dbo].[runner_orders] ro ON co.order_id = ro.order_id
+WHERE ro.pickup_time IS NOT NULL
+  AND (ro.cancellation IS NULL OR CAST(ro.cancellation AS VARCHAR(MAX)) = '')
+GROUP BY co.order_id
+ORDER BY total_pizzas_entregadas DESC;
 ```
 7. Para cada cliente, ¿cuántas pizzas entregadas tuvieron al menos 1 cambio y cuántas no tuvieron cambios?
 ```
-    terraform apply
+SELECT 
+  co.customer_id,
+  SUM(CASE WHEN (co.exclusion IS NOT NULL AND co.exclusion <> '') 
+            OR (co.extras IS NOT NULL AND co.extras <> '') THEN 1 ELSE 0 END) AS con_cambios,
+  SUM(CASE WHEN (co.exclusion IS NULL OR co.exclusion = '') 
+            AND (co.extras IS NULL OR co.extras = '') THEN 1 ELSE 0 END) AS sin_cambios
+FROM [Challenge_sql].[dbo].[customer_orders] co
+JOIN [Challenge_sql].[dbo].[runner_orders] ro ON co.order_id = ro.order_id
+WHERE ro.pickup_time IS NOT NULL
+  AND (ro.cancellation IS NULL OR CAST(ro.cancellation AS VARCHAR(MAX)) = '')
+GROUP BY co.customer_id;
 ```
 8. ¿Cuántas pizzas se entregaron que tenían exclusiones y extras?
 ```
-    terraform apply
+SELECT 
+  COUNT(*) AS pizzas_con_exclusiones_y_extras
+FROM [Challenge_sql].[dbo].[customer_orders] co
+JOIN [Challenge_sql].[dbo].[runner_orders] ro ON co.order_id = ro.order_id
+WHERE ro.pickup_time IS NOT NULL
+  AND (ro.cancellation IS NULL OR CAST(ro.cancellation AS VARCHAR(MAX)) = '')
+  AND (co.exclusion IS NOT NULL AND co.exclusion <> '')
+  AND (co.extras IS NOT NULL AND co.extras <> '');
 ```
 9. ¿Cuál fue el volumen total de pizzas pedidas durante cada hora del día?
 ```
-    terraform apply
+SELECT 
+  DATEPART(HOUR, co.order_time) AS hora,
+  COUNT(*) AS total_pizzas
+FROM [Challenge_sql].[dbo].[customer_orders] co
+JOIN [Challenge_sql].[dbo].[runner_orders] ro ON co.order_id = ro.order_id
+WHERE ro.pickup_time IS NOT NULL
+  AND (ro.cancellation IS NULL OR CAST(ro.cancellation AS VARCHAR(MAX)) = '')
+GROUP BY DATEPART(HOUR, co.order_time)
+ORDER BY hora;
 ```
 10. ¿Cuál fue el volumen de pedidos para cada día de la semana?
 ```
-    terraform apply
+SELECT 
+  DATENAME(WEEKDAY, co.order_time) AS dia_semana,
+  COUNT(DISTINCT co.order_id) AS total_pedidos
+FROM [Challenge_sql].[dbo].[customer_orders] co
+JOIN [Challenge_sql].[dbo].[runner_orders] ro ON co.order_id = ro.order_id
+WHERE ro.pickup_time IS NOT NULL
+  AND (ro.cancellation IS NULL OR CAST(ro.cancellation AS VARCHAR(MAX)) = '')
+GROUP BY DATENAME(WEEKDAY, co.order_time)
+ORDER BY total_pedidos DESC;
 ```
 
 
@@ -315,6 +378,7 @@ GROUP BY [customer_id];
 
 
 <br>
+
 
 
 
