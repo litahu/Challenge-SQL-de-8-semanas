@@ -10,14 +10,14 @@
 
 No | Outline | Description
 ---|---|---
-1 | [Dannys´Diner](https://github.com/litahu/Challenge-SQL-de-8-semanas/tree/main/01_DannysDinner) | Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a monitorear y evaluar el éxito o el fracaso de diversos procesos. De ese modo ante un estancamiento del flujo de caja, Dany se ha interesado por ampliar su cartera de clientes más leales como estrategia para revertir dicha situación. En ese contexto, la preparación empresarial exige aplicar métodos de gestión que permitan medir el rendimiento con precisión y mantener el negocio en marcha.
-2 | [Pizza Runner](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-2:-Pizza-Runner) | hnloop,ñkkkkkkkk
-3 | [Foodie-FI](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-3:-Foodie-FI) | hnloop,ñkkkkkkkk
-4 | [Data Bank](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-4:-Data-Bank) | hnloop,ñkkkkkkkk
-5 | [Data Mart](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-5:-Data-Mart) | hnloop,ñkkkkkkkk
-6 | [CliqueBait](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-6:-CliqueBait) |  hnloop,ñkkkkkkkk
-7 | [Balanced Tree](https://github.com/litahu/Challenge-SQL-de-8-semanas?tab=readme-ov-file#-caso-pr%C3%A1ctico-n%C2%BA-7-balanced-tree-clothing-co) | hnloop,ñkkkkkkkk
-8 | [Fresh Segments](https://github.com/litahu/Challenge-SQL-de-8-semanas?tab=readme-ov-file#-caso-pr%C3%A1ctico-n%C2%BA-8-segmentos-nuevos) |  hnloop,ñkkkkkkkk
+1 | [Dannys´Diner](https://github.com/litahu/Challenge-SQL-de-8-semanas/tree/main/01_DannysDinner) | Observe más de cerca el comportamiento del cliente y la frecuencia de consumo de los productos, y utilice técnicas SQL Server para identificar a clientes más valiosos y explorar de qué canales provienen.
+2 | [Pizza Runner](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-2:-Pizza-Runner) | optimizar las operaciones de Pizza Runner: distancia, duración y tiempo en la que el repatidor recoge el pedido mejorar el tiempo de repartición
+3 | [Foodie-FI](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-3:-Foodie-FI) | Preparando datos para presentar analizar la eficacia de planes de suscripción
+4 | [Data Bank](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-4:-Data-Bank) | Profundice en los datos del sitio web a nivel de página para comparar el tráfico y las tasas de conversión, y utilice SQL Server para crear y analizar embudos de conversión para ayudar a optimizar la experiencia de compra del cliente.
+5 | [Data Mart](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-5:-Data-Mart) | Desglose las ventas a nivel de producto y las tasas de conversión, analice los patrones de venta cruzada y utilice las tasas de reembolso para controlar la calidad
+6 | [CliqueBait](https://github.com/litahu/Challenge-SQL-de-8-semanas#-Caso-práctico-Nº-6:-CliqueBait) |  Construyendo una historia de crecimiento basada en datos para potenciales inversores.
+7 | [Balanced Tree](https://github.com/litahu/Challenge-SQL-de-8-semanas?tab=readme-ov-file#-caso-pr%C3%A1ctico-n%C2%BA-7-balanced-tree-clothing-co) | Preparando datos para la reunión del consejo ejecutivo.
+8 | [Fresh Segments](https://github.com/litahu/Challenge-SQL-de-8-semanas?tab=readme-ov-file#-caso-pr%C3%A1ctico-n%C2%BA-8-segmentos-nuevos) |  Profundice en nuestra combinación de canales de tráfico, explore el tráfico pago frente al gratuito, desglose el rendimiento por tipo de dispositivo para realizar algunos análisis de series de tiempo para comprender las tendencias y la estacionalidad.
 
 <br>
 
