@@ -11,7 +11,7 @@ Danny's Diner necesita su ayuda para ayudar al restaurante a mantenerse a flote:
 
 ## 📂**Historia de fondo**
 
-Danny quiere usar los datos para responder algunas preguntas sencillas sobre sus clientes, especialmente sobre sus hábitos de visita, cuánto han gastado y qué platos del menú son sus favoritos.**Esta conexión más profunda con sus clientes le ayudará a ofrecer una experiencia mejor y más personalizada a sus clientes fieles.**
+Danny quiere usar los datos para responder algunas preguntas sencillas sobre sus clientes, especialmente sobre sus hábitos de visita, cuánto han gastado y qué platos del menú son sus favoritos. **Esta conexión más profunda con sus clientes le ayudará a ofrecer una experiencia mejor y más personalizada a sus clientes fieles.**
 
 Planea utilizar estos conocimientos para ayudarlo a decidir si debe ampliar el programa de fidelización de clientes existente; además, necesita ayuda para generar algunos conjuntos de datos básicos para que su equipo pueda inspeccionar fácilmente los datos sin necesidad de usar SQL.
 
