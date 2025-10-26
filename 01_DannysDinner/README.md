@@ -296,7 +296,7 @@ Medir el rendimiento empresarial es crucial para cualquier empresa. Esto ayuda a
 </p>
 
 3. Cada cliente tiene un artículo favorito distinto(Cliente A y C con el Rame, mientras, el Cliente B es el sushi), lo que permite personalizar la experiencia.
-4. La membresia influye positivamente, ya que los clientes compraron más después de unirse(Puntos acumulados A con  1370 y B con 940).
+4. La membresía influye positivamente, ya que los clientes compraron más después de unirse(Puntos acumulados A con  1370 y B con 940).
 
 <br>
 
