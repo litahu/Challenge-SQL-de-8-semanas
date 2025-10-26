@@ -153,8 +153,9 @@ INSERT INTO pizza_toppings (topping_id, topping_name) VALUES
 Puede inspeccionar el diagrama de relación de entidades y los datos de ejemplo a continuación:
 
 <p align="center">
-  <kbd> <img width="550" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/02_PizzaRunner/02_DER.PNG"></kbd> <br>
+  <kbd> <img width="550" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/02_PizzaRunner/asset/02_DER.PNG"></kbd><br>
   Imagen 1 — Diagrama de relación de miembros, venta y productos de Danny's Diner
+</p>
 
 <br>
 
@@ -625,10 +626,20 @@ WHERE ro.[pickup_time] IS NOT NULL
 
 ## 📂**Conclusiones**
 
+**Optimizar las operaciones de Pizza Runner**
+- Los ingredientes más solicitados como extras son el "Bacon" y el "Mushroom" y los ingredientes más excluidos fueron el "Cheese" y el "Onion". La demanda requiere un reajuste de promociones(extra promociones y combos) o un ajuste de la receta base con los añadidos para una mejor satisfacción con la carta de las pizzas.
 
+**Dirigir mejor a sus corredores**
+- Considerando un pago de $0.30 por kilómetro a los corredores. Pizza Runner mantiene márgenes positivos, aunque variables según la distancia. El tiempo promedio de entrega es una velocidad media de 0.16km/min.
 
+<p align="center">
+  <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/02_PizzaRunner/asset/querypizza_1.PNG"></kbd> <br>
+</p>
+
+- El ranking de corredores es positiva. Aunque existe una tasa de cancelacion del 19%, se puede implementar asignaciones menos veloces a lugares próximos para reducir tiempos de espera.
 
 <br>
+
 
 
 
