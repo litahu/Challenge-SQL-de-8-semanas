@@ -154,7 +154,7 @@ Puede inspeccionar el diagrama de relación de entidades y los datos de ejemplo 
 
 <p align="center">
   <kbd> <img width="550" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/02_PizzaRunner/asset/02_DER.PNG"></kbd><br>
-  Imagen 1 — Diagrama de relación de miembros, venta y productos de Danny's Diner
+  Imagen 1 — Diagrama de relación de Pizzas Runner
 </p>
 
 <br>
@@ -633,12 +633,13 @@ WHERE ro.[pickup_time] IS NOT NULL
 - Considerando un pago de $0.30 por kilómetro a los corredores. Pizza Runner mantiene márgenes positivos, aunque variables según la distancia. El tiempo promedio de entrega es una velocidad media de 0.16km/min.
 
 <p align="center">
-  <kbd> <img width="300" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/02_PizzaRunner/asset/querypizza_1.PNG"></kbd> <br>
+  <kbd> <img width="450" alt="eer" src="https://github.com/litahu/Challenge-SQL-de-8-semanas/blob/main/02_PizzaRunner/asset/querypizza_1.PNG"></kbd> <br>
 </p>
 
-- El ranking de corredores es positiva. Aunque existe una tasa de cancelacion del 19%, se puede implementar asignaciones menos veloces a lugares próximos para reducir tiempos de espera.
+- El ranking de corredores es positiva. Aunque existe una tasa de cancelación del 19%, se puede implementar un sistema de asignaciones por la deistancia recorrida por pedido brindando mayores incentivos por lugares menos próximos para reducir tiempos de espera.
 
 <br>
+
 
 
 
