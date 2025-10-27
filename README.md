@@ -20,4 +20,6 @@ Nº |  Outline  | Description
 8 | [Fresh Segments](https://github.com/litahu/Challenge-SQL-de-8-semanas?tab=readme-ov-file#-caso-pr%C3%A1ctico-n%C2%BA-8-segmentos-nuevos) |  Profundice en nuestra combinación de canales de tráfico, explore el tráfico pago frente al gratuito, desglose el rendimiento por tipo de dispositivo para realizar algunos análisis de series de tiempo para comprender las tendencias y la estacionalidad.
 
 <br>
+## 🙌 Agradecimiento
+Quedo muy agradecida con la **Universidad Autónoma Gabriel René Moreno** en Alianza con **Datacamp** por la gran oportunidad que me brindo para *Cursar ingeniería de datos y análisis en SQL* ¡Aprendí mucho a analizar los datos en base a queries!😊  Infinitas gracias.
 
