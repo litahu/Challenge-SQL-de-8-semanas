@@ -21,5 +21,5 @@ Nº |  Outline  | Description
 <br>
 
 ## 📂 **Agradecimiento**
-Quedo muy agradecida con la **Universidad Autónoma Gabriel René Moreno** en Alianza con **Datacamp** por la gran oportunidad que me brindo para *Cursar ingeniería de datos y análisis en SQL* ¡Aprendí mucho a analizar los datos en base a queries!😊 Infinitas gracias 💝
+Quedo muy agradecida con la **Universidad Autónoma Gabriel René Moreno** [(UAGRM)](https://www.uagrm.edu.bo/) en alianza con **Datacamp** [](https://www.datacamp.com/es?utm_cid=20534962717&utm_aid=153633328495&utm_campaign=231025_1-ps-brd~brd~branded-pure_2-b2c_3-latam-es_4-rtw_5-na_6-na_7-le_8-pdsh-go_9-b-s_10-na_11-na&utm_loc=9186213-&utm_mtd=e-c&utm_kw=datacamp&utm_source=google&utm_medium=paid_search&utm_content=ps-other~latam-es~brd~pure~pure&gad_source=1&gad_campaignid=20534962717&gbraid=0AAAAADQ9WsGTdua1PAb3xROWF0h6YpVDx&gclid=Cj0KCQjwsPzHBhDCARIsALlWNG0Jouzjw24xMt78PceBNxwmwXpaG6AvcUGIOMuqFO35hU8GRKVQkDgaAtzYEALw_wcB) por la gran oportunidad que me brindo para *Cursar ingeniería de datos y análisis en SQL* ¡Aprendí mucho a analizar los datos en base a queries!😊 Infinitas gracias 💝
 
